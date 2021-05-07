@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 48px;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /*background: linear-gradient(#2978b5, #0061a8);*/
+  background: url("icons/clouds.jpg");
+  color: white;
+  font-family: sans-serif;
+}
+
+.location {
+  height: 30vh;
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.weather-icon {
+  margin-left: 20%;
+}
+
+.temperature {
+  flex-direction: column;
+  height: 30vh;
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.degree-section {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.degree-section span {
+  margin: 10px;
+  font-size: 40px;
+}
+
+.degree-section h2 {
+  font-size: 40px;
+}
+
+.temperature-description {
+  margin-top: 20px;
+  font-size: 34px;
+  text-transform: capitalize;
+}
